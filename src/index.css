@@ -5,9 +5,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.widgets-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.widget {
+  text-align: center;
+  padding: 10px;
+}
+.widget-1-1 {
+  width: 300px;
+  height: 300px;
+  background: rgb(180, 175, 175);
+  margin: 20px;
+  overflow-y: scroll
+}
+
+.widget-2-1 {
+  width: 600px;
+  height: 300px;
+  background: rgb(180, 175, 175);
+  margin: 20px;
+  overflow-y: scroll
+}
+
+.widget-4-3 {
+  width: 1200px;
+  height: 900px;
+  background: rgb(180, 175, 175);
+  margin: 20px;
+  overflow-y: scroll
+}
+
+.meetings {
+  margin-top: 20px;
+}
+
+.meeting-container{
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
